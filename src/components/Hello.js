@@ -1,3 +1,15 @@
-import React from "react";
+import React, { Component } from "react";
 
-export default ({ name }) => <h1>Hello World</h1>;
+// Functional Component
+// const Hello = () => {
+//   return <h1>Hello World</h1>;
+// };
+
+// export default Hello;
+
+// Class based component
+export default class Hello extends Component {
+  render() {
+    return <h1>Hello World</h1>;
+  }
+}

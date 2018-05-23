@@ -1,7 +1,7 @@
 import React from "react";
 import { render } from "react-dom";
-// import Hello from "./components/Hello";
-import ThinkingInComponents from "./components/ThinkingInComponents";
+import Hello from "./components/Hello";
+// import ThinkingInComponents from "./components/ThinkingInComponents";
 
 const styles = {
   fontFamily: "Helvetica, sans-serif",
@@ -10,7 +10,7 @@ const styles = {
 
 const App = () => (
   <div style={styles}>
-    <ThinkingInComponents />
+    <Hello />
   </div>
 );
 
