@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import SimpleCTA from "./ComposingComponents";
+
 // Functional Component
 // const Hello = () => {
 //   return <h1>Hello World</h1>;
@@ -10,6 +12,12 @@ import React, { Component } from "react";
 // Class based component
 export default class Hello extends Component {
   render() {
-    return <h1>Hello World</h1>;
+    return (
+      <div>
+        <h1>Hello World</h1>
+        <SimpleCTA />
+        <SimpleCTA />
+      </div>
+    );
   }
 }

@@ -1,11 +1,11 @@
 import React from "react";
 import { render } from "react-dom";
 import Hello from "./components/Hello";
-// import ThinkingInComponents from "./components/ThinkingInComponents";
+// import HelloWithProps from "./components/HelloWithProps";
+// import SimpleCTA from "./components/ComposingComponents";
 
 const styles = {
-  fontFamily: "Helvetica, sans-serif",
-  textAlign: "center"
+  fontFamily: "Helvetica, sans-serif"
 };
 
 const App = () => (
