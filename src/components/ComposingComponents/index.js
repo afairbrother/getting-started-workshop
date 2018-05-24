@@ -17,7 +17,6 @@ class SimpleCTA extends Component {
       3. Add Two CTA containers to the Hello component
       4. Add some styles to your Button component
     */
-
     return (
       <div style={styles}>
         <h3>A Simple CTA Container</h3>

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
-import SimpleCTA from "./ComposingComponents";
+// import SimpleCTA from "./ComposingComponents";
+import StatefulCTA from "./ComponentState";
 
 // Functional Component
 // const Hello = () => {
@@ -15,8 +16,8 @@ export default class Hello extends Component {
     return (
       <div>
         <h1>Hello World</h1>
-        <SimpleCTA />
-        <SimpleCTA />
+        <StatefulCTA />
+        <StatefulCTA />
       </div>
     );
   }
